@@ -26,11 +26,6 @@ p {
   margin-bottom: 20px;
 }
 
-/*girl > img {
-  position: absolute; bottom: 0; right: 0;
-  height: 98%; width: 68%;
-}*/
-
 nav, a {
   font-family: var(--font-h1); font-size: 23px;
   text-decoration: none;
@@ -53,4 +48,33 @@ button {
 nav > a > img {
   width: 25px; height: 25px;
   margin-right: 10px;
+}
+
+button {
+  display: inline-block;
+  padding:12px 24px;
+  border: 1px solid #4f4f4f; 
+  border-radius: 4px;
+  transition: all 0.2s ease-in; 
+  position: relative; 
+  overflow: hidden; 
+  font-size: 19px;
+  color: black; 
+  z-index: 1;
+  cursor: pointer; 
+}
+
+button:before {
+  content: "";
+  position: absolute; 
+  left: 50%;
+  transform: translatX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block; 
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
 }
