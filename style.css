@@ -1,0 +1,56 @@
+@import url(reset.css); @import url(root.css);
+
+body {
+  background-color: var(--white);
+  
+}
+
+section {
+  height: 100%; width: 100%;
+  padding-left: 5%; padding-right: 5%;
+}
+
+h1 {
+  font-size: var(--h1); font-family: var(--font-h1);
+  
+  padding-top: 15%;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: var(--p); font-family: var(--font-p);
+  line-height: 25px; letter-spacing: 1.5px;
+  color: var(--gray);
+  width: 450px;
+  
+  margin-bottom: 20px;
+}
+
+/*girl > img {
+  position: absolute; bottom: 0; right: 0;
+  height: 98%; width: 68%;
+}*/
+
+nav, a {
+  font-family: var(--font-h1); font-size: 23px;
+  text-decoration: none;
+  color: var(--black);
+  
+  margin-right: 3vw;
+  padding-top: 30px;
+}
+
+button {
+  background-color: var(--blue);
+  
+  padding-left:50px; padding-right:50px; padding-top: 10px; padding-bottom: 10px;
+  border-radius: 10px;
+  
+  font-family: var(--font-p); font-size: 30px;
+  color: var(--white);
+}
+
+nav > a > img {
+  width: 25px; height: 25px;
+  margin-right: 10px;
+}

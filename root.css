@@ -1,0 +1,13 @@
+:root {
+  --blue: #70D9C5;
+  --black: #1E1C1E;
+  --gray: #6C6B72;
+  --white: #F9FBFF;
+  
+  --font-h1: 'Montserrat Alternates', sans-serif;
+  --font-p: 'Montserrat', sans-serif;
+  
+  --h1: 5.5vh;
+  --p: 2.5vh;
+}
+
