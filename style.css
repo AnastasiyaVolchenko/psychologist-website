@@ -56,14 +56,14 @@ nav > a > img {
 button {
   display: inline-block;
   padding:12px 24px;
-  border: 1px solid #4f4f4f; 
+  border: 1px solid var(--gray); 
   border-radius: 4px;
   transition: all 0.2s ease-in; 
   position: relative; 
   overflow: hidden; 
   font-family: var(--font-p);
   font-size: 19px;
-  color: black; 
+  color: var(--black); 
   z-index: 1;
   cursor: pointer; 
 }
