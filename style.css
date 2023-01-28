@@ -61,6 +61,7 @@ button {
   transition: all 0.2s ease-in; 
   position: relative; 
   overflow: hidden; 
+  font-family: var(--font-p);
   font-size: 19px;
   color: black; 
   z-index: 1;
