@@ -35,6 +35,7 @@ nav, a {
   padding-top: 30px;
 }
 
+/*
 button {
   background-color: var(--blue);
   
@@ -44,11 +45,13 @@ button {
   font-family: var(--font-p); font-size: 30px;
   color: var(--white);
 }
+*/
 
 nav > a > img {
   width: 25px; height: 25px;
   margin-right: 10px;
 }
+
 
 button {
   display: inline-block;
