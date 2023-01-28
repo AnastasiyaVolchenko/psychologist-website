@@ -1,2 +1,2 @@
 # psychologist-website
-Freelance project
+Сайт-визитка для заказчика-психолога
